@@ -16,6 +16,16 @@
     	</h4>
     </section>
     <section>
+      <h2>Trades:</h2>
+      <div class="col-md-8">
+        <% if @user.trades.any? %>
+          <h3>Trades (<%= @user.trades.count %>)</h3>
+          <ol class="trades">
+            <%= render @trades %>
+          </ol>
+          <%= will_paginate @trades %>
+        <% end %>
+      </div>
     </section>
   </aside>
 </div>

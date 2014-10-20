@@ -1,0 +1,8 @@
+<li id="trade-<%= trade.id %>">
+  <%= link_to gravatar_for(trade.user, size: 50), trade.user %>
+  <span class="user"><%= link_to trade.user.name, trade.user %></span>
+  <span class="content">Has this trade been fulfilled: <%= trade.filled %></span>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(trade.created_at) %> ago.
+  </span>
+</li>
