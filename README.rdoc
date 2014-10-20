@@ -1,28 +1,19 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+``` B-Trade
 
-Things you may want to cover:
+A bitcoin exchange built on rails that supports:
 
-* Ruby version
+* Paypal Deposit
 
-* System dependencies
+* Credit/Debit Deposit
 
-* Configuration
+* Bitcoin Deposit
 
-* Database creation
+* Paypal Withdrawl
 
-* Database initialization
+* Credit/Debit Withdrawl
 
-* How to run the test suite
+* Bitcoin Withdrawl
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Live Exchange
