@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+#ruby for heroku
+gem 'ruby'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
 # add bcrypt for passwords
@@ -55,4 +56,5 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'unicorn',        '4.8.3'
 end
