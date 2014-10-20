@@ -1,6 +1,6 @@
 == README
 
-``` B-Trade
+# B-Trade
 
 A bitcoin exchange built on rails that supports:
 
